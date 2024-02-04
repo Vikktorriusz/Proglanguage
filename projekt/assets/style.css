@@ -1,0 +1,149 @@
+body{
+    height: 900px;
+    background: linear-gradient(to bottom, rgb(46, 40, 40) 99%, limegreen 0.1% );
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+
+#container-h1{
+    text-align: center;
+    position: relative;
+    top: 19%;
+    left: 44.9%;
+    width: 10%;
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+#container-2-h1{
+    text-align: center;
+    color: white;
+    position: relative;
+    width: 10%;
+    left: 44.9%;
+    top: 19%;
+    transition: 1s ease-in-out;
+}
+
+#container-2-h1:hover{
+    color: white;
+    transform: scale(1.3);
+}
+
+
+#container-h1:hover{
+    color: white;
+    transform: scale(1.3);
+}
+
+.htmlimg{
+    transition: 2s;
+}
+
+.cssimg{
+    width: 240px;
+    height: 239px;
+    position: relative;
+    right: 20px;
+    transition: 2s;
+}
+
+.jsimg{
+    width: 240px;
+    height: 239px;
+    position: relative;
+    right: 20px;
+    transition: 2s;
+}
+
+.pythonimg{
+    position: relative;
+    right: 28.5px;
+    transition: 2s;
+}
+
+
+.htmlimg:hover{
+    filter: drop-shadow(1px 1px 20px #f06529);
+    transform: scale(1.15);
+}
+
+.cssimg:hover{
+    filter: drop-shadow(1px 1px 20px #2965f1);
+    transform: scale(1.15);
+}
+
+.jsimg:hover{
+    filter: drop-shadow(1px 1px 20px #f0db4f);
+    transform: scale(1.15);
+}
+
+.pythonimg:hover{
+    filter: drop-shadow(1px 1px 15px #829ba4);
+    transform: scale(1.1);
+}
+
+
+
+.card-html, .card-css, .card-js, .card-python {
+    padding: 50px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    transition: 2s;
+    border-radius: 40px;
+}
+
+.card-html:hover{
+    border: 5px solid #f06529;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card-css:hover{
+    border: 5px solid #2965f1;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card-js:hover{
+    border: 5px solid #f0db4f;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card-python:hover{
+    max-width: 250px;
+    position: relative;
+    cursor: pointer;
+    background: linear-gradient(rgb(46, 40, 40), rgb(46, 40, 40)) padding-box,
+                linear-gradient(120deg, #2965f1, #f0db4f) border-box;
+    border: 5px solid transparent;
+    border-radius: 20px;
+}
+
+.python-h1{
+    background: linear-gradient(to left, blue, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    color: white;
+    display: block;
+  }
