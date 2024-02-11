@@ -32,6 +32,7 @@ li{
 
 .referenc-box-div{
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .card-1{
