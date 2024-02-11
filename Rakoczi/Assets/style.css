@@ -1,0 +1,80 @@
+
+
+body{
+    background-color: rgb(46, 40, 40);
+}
+
+a{
+    text-decoration: none;
+}
+
+b{
+    transition: 4s;
+}
+
+b:hover{
+    color: limegreen;
+}
+
+
+li{
+    display: inline;
+    padding: 6px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.nav-bar-div{
+    position: absolute;
+    color: white;
+    top: 1.5%;
+    right: 4%;
+    
+}
+
+#Rakoczidev-nav-icon{
+    width: 25px;
+    font-weight: 25px;
+}
+
+
+.name-h1{
+    position: absolute;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 35%;
+    right: 49%;
+    width: 400px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+#Discord-img-one{
+    position: absolute;
+    top: 80%;
+    right: 80%;
+    width: 25px;
+    height: 20px;
+}
+
+.Discord-name{
+    position: absolute;
+    top: 78%;
+    right: 69%;
+    color: white;
+}
+
+#Rakoczi-img-one{
+    width: 300px;
+    height: 300px;
+    margin: 12%;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+
+#Rakoczi-img-one:hover{
+    transition: 3s;
+    filter: drop-shadow(10px 10px 10px white);
+}
+
