@@ -246,7 +246,7 @@ body{
 /*      Kártyák VÉGE       */
 
 
-@media only screen and (max-width: 1000px) and  (min-width: 300px){ /* Retina display */
+@media all and (max-width: 100%){ /* Retina display */
 
     .container{
         scale: 0.5;
